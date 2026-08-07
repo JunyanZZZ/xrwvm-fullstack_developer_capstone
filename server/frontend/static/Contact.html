@@ -1,0 +1,107 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Contact Us content -->
+<div class="card"
+     style="width: 80%; margin: auto; margin-top: 5%;">
+    <!-- Cars image -->
+    <div class="text-center">
+        <img src="/static/cars.jpeg"
+             class="img-fluid"
+             style="max-width: 70%;"
+             alt="Cars">
+    </div>
+    <hr>
+    <div class="row align-items-center">
+        <!-- Customer service image -->
+        <div class="col-md-5 text-center">
+            <img src="/static/contactus.png"
+                 class="img-fluid"
+                 style="max-width: 50%;"
+                 alt="Customer Service">
+        </div>
+        <!-- Contact information -->
+        <div class="col-md-7 border-start text-center text-primary">
+            <p class="fw-bold mb-0">
+                Contact Customer Service
+            </p>
+            <p>
+                <a href="mailto:support@bestcars.com">
+                    support@bestcars.com
+                </a>
+            </p>
+            <p class="fw-bold mb-0">
+                Contact our National Advertising team
+            </p>
+            <p>
+                <a href="mailto:NationalSales@bestcars.com">
+                    NationalSales@bestcars.com
+                </a>
+            </p>
+            <p class="fw-bold mb-0">
+                Contact our Public Relations team
+            </p>
+            <p>
+                <a href="mailto:PR@bestcars.com">
+                    PR@bestcars.com
+                </a>
+            </p>
+            <p class="fw-bold mb-0">
+                Contact the bestcars.com offices
+            </p>
+            <p>
+                <a href="tel:3126111111">
+                    312-611-1111
+                </a>
+            </p>
+            <p class="fw-bold mb-0">
+                Become a bestcars.com car dealer
+            </p>
+            <p>
+                <a href="#">
+                    Visit growwithbestcars.com
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
